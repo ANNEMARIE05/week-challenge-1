@@ -1,7 +1,14 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 .box {
     width: 70px;
     border-radius: 100%;
-    margin: 18% 45%;
   }
   .box {
     animation: wheelHueColor 4s infinite;
@@ -17,15 +24,13 @@
     5%      { color: green; height: 85px; width: 85px;}
     10%      { color: green; height: 90px; width: 90px;}
     15%      { color: green; height: 100px; width: 100px;}
-    20%      { color: orange; height: 110px; width: 110px;}
-    30%      { color: orange; height: 125px; width: 125px;}
-    35%      { color: orange; height: 130px; width: 130px; border-radius: 10px;}
-    40%      { color: orange; height: 140px; width: 140px; border-radius: 7px;}
-    45%      { color: rgba(255, 0, 0, 0.664); height: 150px; width: 150px; border-radius: 5px;}
+    20%      { color: orange; height: 105px; width: 105px;}
+    25%      { color: orange; height: 115px; width: 115px;}
+    30%      { color: orange; height: 125px; width: 125px; border-radius: 10px;}
+    35%      { color: red; height: 130px; width: 130px; border-radius: 7px;}
+    40%      { color: red; height: 150px; width: 150px; border-radius: 4px;}
     50%      { color: red; height: 160px; width: 160px; border-radius: 0px;}
-    53%      { color: red; height: 165px; width: 165px; border-radius: 0px;}
-    55%      { color: rgba(255, 0, 0, 0.664); height: 150px; width: 150px; border-radius: 5px;}
-    60%      { color: orange; height: 140px; width: 140px; border-radius: 7px;}
+    60%      { color: red; height: 140px; width: 140px; border-radius: 7px;}
     65%      { color: orange; height: 130px; width: 130px; border-radius: 10px;}
     70%      { color: orange; height: 125px; width: 125px;}
     75%      { color: orange; height: 120px; width: 120px;}
@@ -33,6 +38,6 @@
     85%      { color: green; height: 100px; width: 100px;}
     90%      { color: green; height: 90px; width: 90px;}
     95%      { color: green; height: 85px; width: 85px;}
-    100%     { color: green; height: 80px; width: 80px; }
+    100%     { color: green; height: 80px; width: 80px;}
   }
   

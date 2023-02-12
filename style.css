@@ -1,7 +1,7 @@
 .box {
     width: 70px;
     border-radius: 100%;
-    margin: 20% 45%;
+    margin: 18% 45%;
   }
   .box {
     animation: wheelHueColor 4s infinite;
@@ -18,7 +18,6 @@
     10%      { color: green; height: 90px; width: 90px;}
     15%      { color: green; height: 100px; width: 100px;}
     20%      { color: orange; height: 110px; width: 110px;}
-    25%      { color: orange; height: 120px; width: 120px;}
     30%      { color: orange; height: 125px; width: 125px;}
     35%      { color: orange; height: 130px; width: 130px; border-radius: 10px;}
     40%      { color: orange; height: 140px; width: 140px; border-radius: 7px;}
